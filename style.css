@@ -1,0 +1,71 @@
+body {
+  background: rgb(31, 249, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(31, 249, 255, 1) 0%,
+    rgba(209, 47, 161, 1) 20%,
+    rgba(255, 200, 228, 1) 35%,
+    rgba(89, 222, 216, 1) 50%,
+    rgba(255, 200, 228, 1) 65%,
+    rgba(209, 47, 161, 1) 80%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+.main {
+  margin: 100px 300px;
+}
+
+.card {
+  background-color: whitesmoke;
+  border: none;
+  width: 400px;
+  height: 470px;
+  border-radius: 20px;
+  margin: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  float: left;
+}
+.tag {
+  background-color: rgba(128, 0, 128, 0.3);
+  padding: 2px 10px;
+}
+
+img {
+  width: auto;
+  height: 250px;
+  padding: 0px 20px;
+}
+
+p {
+  line-height: 5px;
+}
+
+.rates {
+  font-weight: bold;
+}
+
+.btn {
+  height: 75px;
+  width: 192px;
+  font-size: 20px;
+  border-radius: 10px;
+  border: none;
+  margin: 5px;
+  color: grey;
+}
+
+.btn2 {
+  height: 75px;
+  width: 192px;
+  font-size: 20px;
+  color: white;
+  background-color: rgb(179, 109, 179);
+  border-radius: 10px;
+  border: none;
+}
+
+.image {
+  padding: 0px 90px;
+}
