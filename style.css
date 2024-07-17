@@ -30,6 +30,10 @@ body {
   float: left;
 }
 
+.card:hover {
+  border: 1px solid black;
+}
+
 .tag {
   background-color: rgba(128, 0, 128, 0.3);
   padding: 2px 10px;
@@ -59,6 +63,11 @@ p {
   color: grey;
 }
 
+.btn:hover {
+  transform: scale(1.1);
+  border: 1px solid black;
+}
+
 .btn2 {
   height: 75px;
   width: 192px;
@@ -67,6 +76,11 @@ p {
   background-color: rgb(179, 109, 179);
   border-radius: 10px;
   border: none;
+}
+
+.btn2:hover {
+  transform: scale(1.1);
+  border: 1px solid black;
 }
 
 .button {
